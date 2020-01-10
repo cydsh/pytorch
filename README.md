@@ -88,3 +88,55 @@ ResNet(
     (1): Linear(in_features=512, out_features=6, bias=True)  
   )  
 )  
+  
+预测结果如下：  
+Epoch 1/10  
+344it [17:19,  3.02s/it]  
+Batch 344, Train loss:0.0389, Train acc:0.3482, Time: 1039.535296201706  
+112it [04:14,  2.27s/it]  
+Batch 112, Test loss:0.0359, Test acc:0.4183, Time :254.46853590011597  
+Epoch 2/10  
+343it [16:52,  2.95s/it]Batch 344, Train loss:0.0373, Train acc:0.3759, Time: 1014.8161301612854  
+344it [16:54,  2.95s/it]  
+112it [04:11,  2.24s/it]  
+Batch 112, Test loss:0.0363, Test acc:0.4167, Time :251.06466388702393  
+Epoch 3/10  
+343it [16:53,  2.96s/it]Batch 344, Train loss:0.0370, Train acc:0.3805, Time: 1015.6094932556152  
+344it [16:55,  2.95s/it]  
+112it [04:11,  2.24s/it]  
+Batch 112, Test loss:0.0369, Test acc:0.4022, Time :251.03945183753967  
+Epoch 4/10  
+344it [16:55,  2.95s/it]  
+0it [00:00, ?it/s]Batch 344, Train loss:0.0368, Train acc:0.3793, Time: 1015.3265600204468  
+112it [04:10,  2.24s/it]  
+Batch 112, Test loss:0.0360, Test acc:0.4230, Time :250.96127009391785  
+0it [00:00, ?it/s]Epoch 5/10  
+343it [16:53,  2.95s/it]Batch 344, Train loss:0.0366, Train acc:0.3815, Time: 1015.4724538326263  
+344it [16:55,  2.95s/it]  
+112it [04:10,  2.24s/it]  
+Batch 112, Test loss:0.0361, Test acc:0.4121, Time :250.981507062912  
+0it [00:00, ?it/s]Epoch 6/10  
+344it [16:55,  2.95s/it]  
+0it [00:00, ?it/s]Batch 344, Train loss:0.0367, Train acc:0.3848, Time: 1015.985337972641  
+112it [04:11,  2.24s/it]  
+Batch 112, Test loss:0.0358, Test acc:0.4357, Time :251.0967607498169  
+0it [00:00, ?it/s]Epoch 7/10  
+344it [16:56,  2.95s/it]  
+Batch 344, Train loss:0.0365, Train acc:0.3842, Time: 1016.375559091568  
+112it [04:11,  2.24s/it]  
+Batch 112, Test loss:0.0359, Test acc:0.4315, Time :251.2618911266327  
+Epoch 8/10  
+344it [16:55,  2.95s/it]  
+0it [00:00, ?it/s]Batch 344, Train loss:0.0368, Train acc:0.3821, Time: 1015.8622109889984  
+112it [04:11,  2.24s/it]  
+Batch 112, Test loss:0.0354, Test acc:0.4333, Time :251.07493114471436  
+Epoch 9/10  
+344it [16:56,  2.95s/it]  
+Batch 344, Train loss:0.0367, Train acc:0.3826, Time: 1016.1267077922821  
+112it [04:11,  2.24s/it]  
+Batch 112, Test loss:0.0363, Test acc:0.4022, Time :251.1050910949707  
+0it [00:00, ?it/s]Epoch 10/10  
+344it [16:56,  2.96s/it]  
+Batch 344, Train loss:0.0363, Train acc:0.3955, Time: 1016.6961767673492  
+111it [04:10,  2.25s/it]Batch 112, Test loss:0.0359, Test acc:0.4223, Time :251.74002885818481  
+112it [04:11,  2.25s/it]  
