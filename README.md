@@ -1,5 +1,4 @@
-# pytorch
-图片分类  
+# pytorch  
 使用resnet18进行迁移学习，修改了最后全连接层的参数，模型结构如下：  
 ResNet(  
   (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)  
