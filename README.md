@@ -1,6 +1,16 @@
-# pytorch  
+## References
+
+<br/>
+
+
+## Getting Started
+
+### Prerequisites
+
+这次使用到的数据集是新闻图片，共有6类，其中训练集数据有13972张照片，测试数据集有4517张照片。数据包含两个子目录分别train与test，采用隐形字典形式读取数据集。
+### Model Structure
 使用resnet18进行迁移学习，修改了最后全连接层的参数，模型结构如下：  
-ResNet(  
+>ResNet(  
   (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)  
   (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)  
   (relu): ReLU(inplace=True)  
